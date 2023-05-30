@@ -1,0 +1,67 @@
+body {
+  background: #fff;
+}
+
+.header {
+  max-width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Courier New", Courier, monospace;
+}
+.headerLeft {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+}
+.headerLeft img {
+  width: 40px;
+  height: 40px;
+}
+.headerLeft p {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+  color: #191825;
+  padding-left: 20px;
+}
+.headerCenter ul {
+  display: flex;
+}
+.headerCenter ul li {
+  padding: 20px;
+  list-style: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: rgba(25, 24, 37, 0.5);
+}
+.headerCenter ul li:first-child {
+  color: black;
+}
+.headerRight {
+  display: flex;
+  margin-right: 25px;
+  gap: 8px;
+}
+
+.headerRight .buttonLogin {
+  font-size: 14px;
+  padding: 16px 32px;
+  color: #222831;
+  background: none;
+  border-radius: 100px;
+  border: none;
+}
+
+.headerRight .buttonSignUp {
+  padding: 16px 32px;
+  background: #5d50c6;
+  border-radius: 100px;
+  border: none;
+  color: #eeeeee;
+  font-size: 14px;
+}

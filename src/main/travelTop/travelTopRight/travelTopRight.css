@@ -1,0 +1,12 @@
+.layer {
+  width: 100%;
+  max-width: 500px;
+  height: 550px;
+  margin: 20px 144px;
+}
+.travelTopRight {
+  /* width: 100%; */
+  background: url(../travelTopRight/img/layer.png);
+  background-repeat: no-repeat;
+  /* margin-left: 45px; */
+}

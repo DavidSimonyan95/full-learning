@@ -1,0 +1,9 @@
+.App {
+  background: repeating-linear-gradient(
+    90deg,
+    #fff,
+    #ffe6e6 50px,
+    #fff 50px,
+    #ffe6e6 50px
+  );
+}
